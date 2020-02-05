@@ -1,0 +1,5 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,AccessToken,Username,id,"""username"""
+2,AccessToken,Password,css,"""input#password"""
+3,AccessToken,LoginButton,name,"""login"""
+-EOF-,,,,

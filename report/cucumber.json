@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test GET",
+        "description": "",
+        "id": "feature-to-test-get-request;test-get",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I pass the URI \"https://api.lobdev.fusionfabric.cloud\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I Should see StatusCode as 200",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@prof1"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 7,
+            "value": "#And I Should see message as \"Live cricket score\""
+          }
+        ],
+        "line": 10,
+        "name": "Test GET1",
+        "description": "",
+        "id": "feature-to-test-get-request;test-get1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I pass the URI \"http://apecricket.herokuapp.com:80/api/cricket\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I Should see StatusCode as 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I Should see message as \"upcoming match schedules\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@prof1"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test GET Request",
+    "description": "",
+    "id": "feature-to-test-get-request",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/TestGet.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TestAPI"
+      }
+    ]
+  }
+]

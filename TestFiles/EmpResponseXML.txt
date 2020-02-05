@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<name>test1</name>
+	<salary>1123</salary>
+	<age>23</age>
+</root>

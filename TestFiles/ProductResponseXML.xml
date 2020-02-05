@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<originationTypeIndicator>NEW</originationTypeIndicator>
+	<effectiveDate />
+	<maturityDate />
+	<expiryDate />
+	<productType>3000205</productType>
+	<purposeTypeId>5684</purposeTypeId>
+	<previousAmount />
+	<amount>
+		<currencyCode />
+		<amount>58500</amount>
+	</amount>
+	<hostLoanNumber>987053104999006</hostLoanNumber>
+	<pricings />
+	<fees />
+	<lineOfCreditId>4</lineOfCreditId>
+	<applicationId>4</applicationId>
+	<term />
+	<termUnit>n</termUnit>
+	<supportedCurrencies />
+	<documentedAmount />
+	<originalAmount />
+	<totalAmountTakedown />
+	<requestedAmount>50000</requestedAmount>
+	<finalAmount>50000</finalAmount>
+	<newMoneyAmount />
+	<payoffAmount />
+	<previousEffectiveDate />
+	<interestRate />
+	<rateType />
+	<isRevolvingLoan />
+	<isFullyAmortizing />
+	<primaryBorrowerId>337</primaryBorrowerId>
+	<secondaryBorrowerIds />
+	<supportedRiskTypes />
+	<paymentTypeId />
+	<paymentFrequencyId />
+	<structure />
+	<repaymentSource />
+	<requestedRate />
+	<loans />
+	<guarantees />
+	<externalId />
+	<parentId />
+</root>
