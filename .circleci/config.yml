@@ -38,8 +38,6 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
-      - run: mvn clean
-      - run: mvn compile
       - run: mvn test
       - store_artifacts:
           path: ~/repo/report
